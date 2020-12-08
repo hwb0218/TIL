@@ -33,7 +33,7 @@
 > 컴포넌트가 실행될 때 render 함수보다 생성자 함수가 먼저 실행되어 초기화를 담당한다.    
 
 ## 이벤트 bind 함수
-```
+```jsx
 <a href="/" onClick={
     (function (e) {
         e.preventDefault();
