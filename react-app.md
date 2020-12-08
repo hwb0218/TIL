@@ -33,6 +33,16 @@
 > 컴포넌트가 실행될 때 render 함수보다 생성자 함수가 먼저 실행되어 초기화를 담당한다.    
 
 ## 이벤트 bind 함수
+```
+<a href="/" onClick={
+    (function (e) {
+        e.preventDefault();
+        this.setState({
+            mode: 'read'
+        });
+    }).bind(this)
+}>
+```
 >이벤트 핸들러 어트리뷰트의 값으로 지정한 함수는 이벤트 핸들러에 의해 일반함수로 호출되고 this는 전역 객체인 window를 가리키게 된다.    
 >strict mode가 적용된 일반 함수의 내부의 this에는 window객체가 아닌 undefined가 바인딩   
 >bind메서드를 사용해서 명시적으로 this를 바인딩 해줌으로써 this가 Class를 가리키도록 해주는 것   
