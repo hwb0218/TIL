@@ -16,3 +16,8 @@
 
 > index.js 안에서 document.getElementById 통해서 Index.html의 id = ‘root’ 를 선택       
 > App은 리액트를 통해서 만든 사용자 정의 태그 즉, 컴포넌트    
+
+## 컴포넌트 만들기
+<div>
+  <img src="https://user-images.githubusercontent.com/52212226/101466541-9ac4ff00-3984-11eb-9fee-8e3ee8074e47.png" width="350">
+</div>
