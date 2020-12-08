@@ -10,6 +10,8 @@
 > Webpack은 이 곳에 있는 파일만 본다.    
 > 이외의 다른 폴더는 webpack에 의해서 처리되지 않음   
 
+
+
 <div>
   <img src="https://user-images.githubusercontent.com/52212226/101465864-d0b5b380-3983-11eb-9b8a-093da45b9ad9.png" width="350">
 </div>
