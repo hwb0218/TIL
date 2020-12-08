@@ -21,3 +21,14 @@
 <div>
   <img src="https://user-images.githubusercontent.com/52212226/101466541-9ac4ff00-3984-11eb-9fee-8e3ee8074e47.png" width="350">
 </div>
+
+> Class를 생성하고 생성한 class를 App class안에서 html 태그처럼 사용하면 된다.
+
+## props
+> this.props.name을 사용하여 컴포넌트의 속성을 표현할 수 있다.
+> props는 부모 컴포넌트가 자식 컴포넌트에게 값을 전달한다.
+
+## state
+> state는 컴포넌트 내부에서 선언하며 내부에서 값을 변경할 수 있다. 
+> 컴포넌트가 실행될 때 render 함수보다 생성자 함수가 먼저 실행되어 초기화를 담당한다. 
+
