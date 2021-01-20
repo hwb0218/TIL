@@ -16,10 +16,10 @@ getElement (함수) | 현재 위치의 요소를 반환
 insert (함수) | 기존 요소 위로 새 요소를 추가
 append (함수) | 새 요소를 리스트의 끝에 추가
 remove (함수) | 리스트의 요소 삭제
-front (함수) | 현재 위치를 리스트 마지막 요소로 설정
+front (함수) | 현재 위치를 리스트 첫번째 요소로 설정
 end (함수) | 현재 위치를 리스트 마지막 요소로 설정
-prev (함수) | 현재 위치를 한 요소 뒤로 이동
-next (함수) | 현재 위치를 한 요소 앞으로 이동
+prev (함수) | 현재 위치를 한 요소 앞으로 이동
+next (함수) | 현재 위치를 한 요소 뒤로 이동
 currPos (함수) | 리스트의 현재 위치 반환
 moveTo (함수) | 현재 위치를 지정한 위치로 이동
 ----------
@@ -85,5 +85,62 @@ insert(element, after) {
         return true;
     }
     return false;
+}
+```
+### Clear - 리스트의 모든 요소 삭제
+```javascript
+clear () {
+    delete this.dataStore;
+    this.dataStore = [];
+    this.listSize = this.pos = 0;
+}
+```
+### Contains - 리스트에 특정값이 있는지 판단
+```javascript
+contains(element) {
+    for (let i = 0; i < this.dataStore.length; i++) {
+        if (this.dataStore[i] === element) {
+            return true;
+        }
+    }
+    return false;
+}
+```
+### 리스트 탐색
+```javascript
+front() {
+    this.pos = 0;
+}
+
+end() {
+    this.pos = this.listSize - 1;
+}
+
+prev() {
+    if (this.pos > 0) {
+        this.pos--;
+    }
+}
+
+next() {
+    if (this.pos < this.listSize - 1) {
+        this.pos++;
+    }
+}
+
+currPos() {
+    return this.pos;
+}
+
+moveTo(position) {
+    if (position <= this.listSize - 1) {
+        return this.pos = position;
+    }
+    return false;
+}
+
+// 리스트의 현재 요소 출력
+getElement() {
+    return this.dataStore[this.pos];
 }
 ```
