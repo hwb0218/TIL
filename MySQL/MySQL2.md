@@ -20,4 +20,5 @@ let someRows, otherRows;
           }).then(() => {
           // do something with someRows and otherRows
           });
+  });
 ```
