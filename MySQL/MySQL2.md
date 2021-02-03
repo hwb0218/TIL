@@ -10,10 +10,12 @@ let someRows, otherRows;
   connection.getConnection().then(conn => {
       return conn.query(firstQuery, [token])
           .then(([firstRows, fields]) => {
+              conn.release();
               someRows = firstRows;
               return conn.query(secondQuery, [token])
           })
           .then(([secondRows, fields]) => {
+              conn.release();
               otherRows = secondRows;
           }).then(() => {
           // do something with someRows and otherRows
