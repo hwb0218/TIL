@@ -43,5 +43,15 @@ person.printName();
 * 생성자 함수 코드가 실행되기전에 빈 객체가 생성된다.
 * 이후 생성자 함수 내에서 사용되는 this는 이 빈 객체를 가리킨다.
 ```javascript
+const Person = function (name) {
+    this.name = name; // Person
+}
+Person.prototype.getName = function () {
+    console.log(this.name); // Person.prototype 이기때문에 프로토타입 내에서도 this는 Person을 가리킨다.
 
+    function inner() {
+        console.log(this); // window
+    }
+    inner();
+}
 ```
