@@ -1,0 +1,34 @@
+# Prototype
+자바스크립트의 모든 객체는 자신의 부모 역할을 담당하는 객체와 연결되어 있다.      
+이러한 부모 객체를 Prototype 객체 또는 Prototype이라 한다.      
+
+Prototype 객체는 생성자 함수에 의해 생성된 각각의 객체에 공유 프로퍼티를 제공하기 위해 사용한다.
+
+```javascript
+const Person = {};
+
+const Person = function(name) {
+  this.name = name
+}
+
+console.dir(person); // Object.prototype
+console.dir(Person); // Person.prototype
+```
+__proto__ 프로퍼티로 자신의 부모 객체에 접근할 수 있다. 
+
+## [[Prototype]] (__proto__)
+* 함수를 포함한 모든 객체가 가지고 있는 인터널 슬롯이다.
+* 객체의 입장에서 자신의 부모 역할을 하는 prototype 객체를 가리킨다.
+* 함수 객체의 경우 Function.prototype을 가리킨다.
+
+## prototype 프로퍼티
+* 함수 객체만 가지고 있는 프로퍼티
+* 생성자 함수로 생성된 객체의 부모 역할을 하는 prototype 객체를 가리킨다.
+
+## constructor 프로퍼티
+* prototype 객체는 constructor 프로퍼티를 갖는다. 
+* constructor 프로퍼티는 prototype 객체의 입장에서 자신을 생성한 객체를 가리킨다.
+
+## Prototype chain
+자바스크립트는 특정 객체의 프로퍼티나 메소드에 접근하려고 했을 때 없으면       
+[[Prototype]] (__proto__) 가 가리키는 링크를 따라 자신의 부모 역할을 하는 prototype 객체의 프로퍼티나 메소드를 차례대로 검사한다.
