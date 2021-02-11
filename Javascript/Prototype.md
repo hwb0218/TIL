@@ -36,3 +36,19 @@ __proto__ 프로퍼티로 자신의 부모 객체에 접근할 수 있다.
 ## Prototype chain
 자바스크립트는 특정 객체의 프로퍼티나 메소드에 접근하려고 했을 때 없으면       
 [[Prototype]] (&#95;&#95;proto__) 가 가리키는 링크를 따라 자신의 부모 역할을 하는 prototype 객체의 프로퍼티나 메소드를 차례대로 검사한다.
+```javascript
+const Person = function(name) {
+  this.name = name;
+}
+Person.prototype.getName = function() {
+  console.log(this.name) // foo
+}
+
+const foo = new Person('foo');
+```
+foo 객체는 getName()이라는 함수를 가지고 있지 않지만       
+prototype 객체와 연결된 프로토타입 링크를 통해 프로퍼티나 메소드를 차례대로 검사한다.
+
+
+
+
