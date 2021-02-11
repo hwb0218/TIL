@@ -16,9 +16,9 @@ console.dir(Person); // Person.prototype
 ```
 __proto__ 프로퍼티로 자신의 부모 객체에 접근할 수 있다. 
 
-## [[Prototype]] (__proto__)
+## [[Prototype]] (===&#95;&#95;proto__)
 * 함수를 포함한 모든 객체가 가지고 있는 인터널 슬롯이다.
-* 객체의 입장에서 자신의 부모 역할을 하는 prototype 객체를 가리킨다.
+* 객체의 입장에서 자신의 부모 역할을 하는 prototype 객체를 가리킨다(프로토타입 링크)
 * 함수 객체의 경우 Function.prototype을 가리킨다.
 
 ## prototype 프로퍼티
@@ -29,6 +29,10 @@ __proto__ 프로퍼티로 자신의 부모 객체에 접근할 수 있다.
 * prototype 객체는 constructor 프로퍼티를 갖는다. 
 * constructor 프로퍼티는 prototype 객체의 입장에서 자신을 생성한 객체를 가리킨다.
 
+<img src="https://user-images.githubusercontent.com/52212226/107618575-1f8a0d00-6c95-11eb-88a3-0209e70d2481.png" width="400" height="300">      
+
+> 출처 생활코딩 Javascript 객체 지향 프로그래밍
+
 ## Prototype chain
 자바스크립트는 특정 객체의 프로퍼티나 메소드에 접근하려고 했을 때 없으면       
-[[Prototype]] (__proto__) 가 가리키는 링크를 따라 자신의 부모 역할을 하는 prototype 객체의 프로퍼티나 메소드를 차례대로 검사한다.
+[[Prototype]] (&#95;&#95;proto__) 가 가리키는 링크를 따라 자신의 부모 역할을 하는 prototype 객체의 프로퍼티나 메소드를 차례대로 검사한다.
