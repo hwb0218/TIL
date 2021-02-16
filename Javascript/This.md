@@ -55,3 +55,31 @@ Person.prototype.getName = function () {
     inner();
 }
 ```
+
+## call, apply
+call과 apply는 기본적으로 함수를 호출하는 메소드다.          
+this에 바인딩 할 객체를 동적으로 지정할 수 있다.          
+두 메소드의 차이는 apply메소드는 두 번째 인자를 배열로 받는다.
+```javascript
+const obj = { name: 'wb' }
+
+const say = function(city) {
+    console.log(`Hello, my name is ${this.name}, I live In ${city}`);
+}
+say('seoul'); // Hello, my name is , I live In seoul
+say.call(obj, 'seoul'); // Hello, my name is wb, I live In seoul
+say.apply(obj, ['seoul']); // Hello, my name is wb, I live In seoul
+```
+
+## bind
+bind는 call, apply와 다르게 함수를 호출하지 않으며 bound함수를 반환한다.                      
+비동기 함수를 실행시킬 때 this 바인딩이 풀리는 경우 this를 고정시키기 위해 자주 사용한다.
+```javascript
+const obj = { name: 'wb' }
+
+const say = function(city) {
+    console.log(`Hello, my name is ${this.name}, I live In ${city}`);
+}
+const boundSay = say.bind(obj);
+boundSay('seoul'); // Hello, my name is wb, I live In seoul
+```
