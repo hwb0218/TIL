@@ -40,6 +40,6 @@ Git은 이 폴더안에 시간여행이 가능한 평행 우주를 만드는 것
 4. 평행우주 넘나들기 - Branch
 
 * git branch - 브랜치 목록 전체를 확인
-* git branch (branch 이름) - 브랜치 생성 / 현 시점에서 두 미래로 분기함
+* git branch (branch 이름) - 브랜치 생성 / 현 시점에서 두 미래로 분기함 / 새로 생성한 브랜치에서 또 브랜치 생성이 가능함
 * git checkout (branch 이름) - 브랜치 전환 / 생성한 브랜치는 마스터 브랜치 현 상태를 그대로 가져옴
 * git checkout master - 마스터 브랜치로 전환
