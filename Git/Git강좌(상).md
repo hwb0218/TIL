@@ -37,9 +37,15 @@ Git은 이 폴더안에 시간여행이 가능한 평행 우주를 만드는 것
 
 * git revert 6자리 - 돌아간 시점 이후의 작업이 파괴되지 않고 새 캡슐을 묻어놓음 
 
-4. 평행우주 넘나들기 - Branch
+4. 평행우주 넘나들기 (동시에 다양한 작업을 할 수 있게 만들어 주는 기능) - Branch
 
 * git branch - 브랜치 목록 전체를 확인
 * git branch (branch 이름) - 브랜치 생성 / 현 시점에서 두 미래로 분기함 / 새로 생성한 브랜치에서 또 브랜치 생성이 가능함
 * git checkout (branch 이름) - 브랜치 전환 / 생성한 브랜치는 마스터 브랜치 현 상태를 그대로 가져옴
 * git checkout master - 마스터 브랜치로 전환
+
+5.1 다른 우주에서 가져오기 (브랜치 병합하기) - merge
+
+* git branch master - 마스터 브랜치로 전환
+* git merge (branch 이름) - 브랜치의 변경 사항을 master 브랜치에 병합
+* git log --graph --all --decorate - 시각화 된 분기 작업내용 보여줌 
