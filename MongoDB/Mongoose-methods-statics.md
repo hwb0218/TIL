@@ -1,5 +1,5 @@
 # Mongoose schema 사용자 정의 메소드!
-Mongoose 강의 영상을 보다가 스키마에서 사용자 정의 메소드 __`statics`__ 와 __`methods`__ 를 키워드를 사용하는데 차이가 궁금해져서 정리함 
+Mongoose 강의 영상을 보다가 스키마 사용자 정의 메소드 __`statics`__ 와 __`methods`__  키워드를 사용하는데 차이가 궁금해져서 정리함 
      
 - MongoDB는 NoSQL 데이터베이스로 문서 지향(Document-Oriented)적인 데이터베이스      
 - Mongoose는 MongoDB ODM(Object Document Mapping)인데 객체와 문서를 연결해준다는 뜻     
