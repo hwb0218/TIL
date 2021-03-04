@@ -40,7 +40,7 @@ userSchema.statics.test2 = function () {}
 const User = mongoose.model('User', userSchema);
 
 module.exports = { User }
-}
+
 
 ```
 
@@ -64,6 +64,7 @@ userSchema.statics.findByToken = function (token, cb) {
             cb(null, user);
         });
     });
+}
 ```
 
 <br>
