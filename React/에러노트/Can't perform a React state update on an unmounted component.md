@@ -15,4 +15,30 @@ To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup f
 일단 검색을 해봤다. 갓구글~      
 보아하니 비동기 처리를 하는 과정에서 발생한다는데 나의 경우 custom hooks를 사용해     
 비동기 작업 수행전 setter함수 setLoding의 파라미터 값으로 true가 전달되면 로딩 스피너가 브라우저에 보여지고       
-비동기 작업이 수행되고 난 후 스피너가 사라지고 setLoding 파라미터로 false가 전달된다.
+비동기 작업이 수행되고 난 후 스피너가 사라지고 setLoding 파라미터로 false가 전달된다.       
+헌데 다른 라우트로 화면 전환을 하면 이동 전 컴포넌트에서 loading state를 변경하려던 시도가 있었기 때문에 
+오류가 발생했다.
+
+  <details>
+  <summary><b>해결코드</b></summary>
+  <div markdown="1">
+  - react에서 알려준 방법인 useEffiect의 cleanup 함수를 사용했다
+ 
+  ```javascript
+  useEffect(() => {
+    const fetchProducts = async () => {
+      setSearchedProducts([]);
+      showLoader();
+      const res = await axios.post("/api/product/products", { filters });
+      hideLoader();
+      if (res.data.success) {
+        setCurrentPage(query.page ? Number(query.page) : 1);
+        setProducts(res.data.productInfo);
+      }
+    };
+    fetchProducts();
+    return () => hideLoader();
+  }, [filters]);
+  ```
+  </div>
+  </details>  
