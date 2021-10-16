@@ -27,14 +27,32 @@
 
 ### React JS
 
-1. Sorting Machine과 입력값 유효성 검사
+1. __Sorting Machine과 입력값 유효성 검사__
 
-    - 입력값 유효성, 정렬 단위 테스트 
+    - 입력값 유효성과 정렬 단위 테스트 작성
     - 🔗 [Github](https://github.com/hwb0218/wanted-preonboarding-subject-5) | [배포링크](https://hopeful-euclid-6679e8.netlify.app/)
+
+2. __코드 리뷰__
+    
+    - 기존 프로젝트의 오류 수정 및 개선 사항 제시
+    - 🔗 [협업노션](https://marked-empress-961.notion.site/Assignment-4-wanted-Refactoring-f6c55f9dca13476d9e723dfcbcd1e4c2)
+
+3. __권한 관리와 대시보드 팀 프로젝트__
+    - 담당기능: 권한에 따른 분기처리, 관리자 페이지에서의 계정 생성 
+    - 🔗 [Github](https://github.com/hwb0218/wanted-preonboarding-subject-4) | [배포링크](https://naughty-curie-d72f2a.netlify.app/) | [협업노션](https://www.notion.so/7ill-Resource-2f8ec63f3a9048418eaa18269cc9bfb8)
+
+4. __웹 스토리지를 활용한 상품 랜덤 조회, 최근 조회 이력 페이지 (Class component)__
+    - 담당기능: 상품 상세페이지 마크업, 상품 랜덤출력, 00시 로컬스토리지 데이터 초기화
+    - 🔗 [Github](https://github.com/hwb0218/wanted-preonboarding-subject-2) | [배포링크](https://angry-snyder-5ea86b.netlify.app/recentList) | [협업노션](https://www.notion.so/2-694a8f5add9d4f8bb30744b1bac972e5)
+
+5. __Infinite scroll__
+    - Intersection Observer API를 사용한 무한 스크롤 구현
+    - 🔗 [Github](https://github.com/hwb0218/Infinity-Scroll-assignment)
+
 
 # 📌 기타
 
 1. __CS 처리 솔루션 기획안__
 
     - 담당내용: 솔루션 UI, ERD 설계, 레퍼런스 제공, 서비스 분석
-    - 🔗 [노션 정리](https://marked-empress-961.notion.site/CS-2d541270ae6043388f5e40099a0efae7)
+    - 🔗 [협업노션](https://marked-empress-961.notion.site/CS-2d541270ae6043388f5e40099a0efae7)
