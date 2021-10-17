@@ -1,3 +1,5 @@
+### [[Wanted x Wecode] 프리온보딩 코스 프론트엔드](https://www.wanted.co.kr/events/pre_onboarding_course_2)
+
 # 📌 개인 프로젝트
 
 ### React TS
