@@ -18,6 +18,8 @@
 
     - 🔗 [리팩토링 사항](https://marked-empress-961.notion.site/Assignment-e682ba89c07544819644479e5162a1b6)
 
+</br>
+
 # 📌 팀 프로젝트
 
 ### React TS
@@ -51,6 +53,7 @@
     - Intersection Observer API를 사용한 무한 스크롤 구현
     - 🔗 [Github](https://github.com/hwb0218/Infinity-Scroll-assignment)
 
+</br>
 
 # 📌 기타
 
