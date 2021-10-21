@@ -61,3 +61,10 @@
 
     - 담당내용: 솔루션 UI, ERD 설계, 레퍼런스 제공, 서비스 분석
     - 🔗 [협업노션](https://marked-empress-961.notion.site/CS-2d541270ae6043388f5e40099a0efae7)
+
+2. __Commit 컨벤션__
+    - 협업 시 일관성 있는 커밋 메시지 작성을 위한 컨벤션 회의록 
+    - 🔗 [협업노션](https://marked-empress-961.notion.site/7ill-Resource-a35b56e12d44404c8ec73e2f4f533b23)
+
+3. __Agile 개발 프로세스__
+    - 🔗 [협업노션](https://marked-empress-961.notion.site/7ill-Resource-2f8ec63f3a9048418eaa18269cc9bfb8)
