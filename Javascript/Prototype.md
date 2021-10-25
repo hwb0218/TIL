@@ -5,7 +5,7 @@
 Prototype 객체는 생성자 함수에 의해 생성된 각각의 객체에 공유 프로퍼티를 제공하기 위해 사용한다.
 
 ```javascript
-const Person = {};
+const person = {};
 
 const Person = function(name) {
   this.name = name
