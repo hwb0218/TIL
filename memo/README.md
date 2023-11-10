@@ -6,3 +6,4 @@
 
 - [변수명 짓기](https://www.curioustore.com/#!/)
 - [프론트엔드 개발자에게도 알고리즘 공부가 중요할까?](https://wormwlrm.github.io/2022/05/28/Should-a-front-end-developer-learn-the-algorithm.html)
+- [프론트엔드 로드맵](https://yozm.wishket.com/magazine/detail/2302/)
