@@ -14,3 +14,11 @@
 ## CSS
 
 - [(번역) 우리가 CSS-in-JS와 헤어지는 이유](https://junghan92.medium.com/%EB%B2%88%EC%97%AD-%EC%9A%B0%EB%A6%AC%EA%B0%80-css-in-js%EC%99%80-%ED%97%A4%EC%96%B4%EC%A7%80%EB%8A%94-%EC%9D%B4%EC%9C%A0-a2e726d6ace6)
+- [테일윈드 참고](https://github.com/adrianhajdin/project_hoobank)
+- [Tailwind CSS 사용기](https://fe-developers.kakaoent.com/2022/220303-tailwind-tips/)
+
+## React
+
+[React query + TS](https://codesandbox.io/p/devbox/tanstack-query-example-react-optimistic-updates-typescript-v5p525?embed=1&file=%2Fsrc%2Fpages%2Findex.tsx%3A23%2C16-23%2C26)
+[React, Jest 테스트 환경 설정](https://medium.com/@Jun_0/react-jest-dac7a8c83910)
+[Web: useEffect와 useLayoutEffect 알아보기](https://medium.com/hcleedev/web-useeffect%EC%99%80-uselayouteffect-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-705611b74b46)
