@@ -22,3 +22,4 @@
 [React query + TS](https://codesandbox.io/p/devbox/tanstack-query-example-react-optimistic-updates-typescript-v5p525?embed=1&file=%2Fsrc%2Fpages%2Findex.tsx%3A23%2C16-23%2C26)
 [React, Jest 테스트 환경 설정](https://medium.com/@Jun_0/react-jest-dac7a8c83910)
 [Web: useEffect와 useLayoutEffect 알아보기](https://medium.com/hcleedev/web-useeffect%EC%99%80-uselayouteffect-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-705611b74b46)
+[Webpack, Babel, React 환경설정](https://velog.io/@babypig/Webpack-React-Typescript)
