@@ -24,3 +24,6 @@
 [Web: useEffect와 useLayoutEffect 알아보기](https://medium.com/hcleedev/web-useeffect%EC%99%80-uselayouteffect-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-705611b74b46)
 [Webpack, Babel, React 환경설정](https://velog.io/@babypig/Webpack-React-Typescript)
 [당신의 React 코드를 2분만에 리팩토링 하는 매우 쉬운 방법](https://velog.io/@choi-ju12g/React-%EB%8B%B9%EC%8B%A0%EC%9D%98-React-%EC%BD%94%EB%93%9C%EB%A5%BC-2%EB%B6%84%EB%A7%8C%EC%97%90-%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81-%ED%95%98%EB%8A%94-%EB%A7%A4%EC%9A%B0-%EC%89%AC%EC%9A%B4-%EB%B0%A9%EB%B2%95)
+
+# FE - CS
+[브라우저에 url을 입력하면 어떤일이 벌어질까?](https://velog.io/@khy226/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90-url%EC%9D%84-%EC%9E%85%EB%A0%A5%ED%95%98%EB%A9%B4-%EC%96%B4%EB%96%A4%EC%9D%BC%EC%9D%B4-%EB%B2%8C%EC%96%B4%EC%A7%88%EA%B9%8C)
